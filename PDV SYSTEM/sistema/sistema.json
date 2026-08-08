@@ -1,0 +1,175 @@
+{
+  "produtos": [
+    {
+      "codigo": "00001",
+      "nome": "Lasanha",
+      "valorEstoque": 12,
+      "valorVenda": 6,
+      "quantidade": -6
+    },
+    {
+      "codigo": "00002",
+      "nome": "COCA-COLA 400ML",
+      "valorEstoque": 20,
+      "valorVenda": 5,
+      "quantidade": 25
+    }
+  ],
+  "vendas": [
+    {
+      "codigo": "00001",
+      "nome": "Lasanha",
+      "valorEstoque": 12,
+      "valorVenda": 6,
+      "quantidade": 10
+    },
+    {
+      "numeroVenda": "000002",
+      "dataHora": "08/08/2026 18:15:07",
+      "itens": [
+        {
+          "codigo": "00002",
+          "nome": "COCA-COLA 400ML",
+          "valorVenda": 5,
+          "qtd": 30
+        }
+      ],
+      "subtotal": 150,
+      "descontoPercentual": 10,
+      "desconto": 15,
+      "totalFinal": 135,
+      "formaPagamento": "Dinheiro"
+    },
+    {
+      "numeroVenda": "000003",
+      "dataHora": "08/08/2026 18:16:38",
+      "itens": [
+        {
+          "codigo": "00002",
+          "nome": "COCA-COLA 400ML",
+          "valorVenda": 5,
+          "qtd": 5
+        }
+      ],
+      "subtotal": 25,
+      "descontoPercentual": 0,
+      "desconto": 0,
+      "totalFinal": 25,
+      "formaPagamento": "Dinheiro"
+    },
+    {
+      "numeroVenda": "000004",
+      "dataHora": "08/08/2026 18:19:16",
+      "itens": [
+        {
+          "codigo": "00002",
+          "nome": "COCA-COLA 400ML",
+          "valorVenda": 5,
+          "qtd": 5
+        },
+        {
+          "codigo": "00001",
+          "nome": "Lasanha",
+          "valorVenda": 6,
+          "qtd": 2
+        }
+      ],
+      "subtotal": 37,
+      "descontoPercentual": 0,
+      "desconto": 0,
+      "totalFinal": 37,
+      "formaPagamento": "Dinheiro"
+    },
+    {
+      "numeroVenda": "000005",
+      "dataHora": "08/08/2026 18:19:16",
+      "itens": [
+        {
+          "codigo": "00002",
+          "nome": "COCA-COLA 400ML",
+          "valorVenda": 5,
+          "qtd": 5
+        },
+        {
+          "codigo": "00001",
+          "nome": "Lasanha",
+          "valorVenda": 6,
+          "qtd": 2
+        }
+      ],
+      "subtotal": 37,
+      "descontoPercentual": 0,
+      "desconto": 0,
+      "totalFinal": 37,
+      "formaPagamento": "Dinheiro"
+    },
+    {
+      "numeroVenda": "000006",
+      "dataHora": "08/08/2026 18:20:15",
+      "itens": [
+        {
+          "codigo": "00001",
+          "nome": "Lasanha",
+          "valorVenda": 6,
+          "qtd": 6
+        }
+      ],
+      "subtotal": 36,
+      "descontoPercentual": 0,
+      "desconto": 0,
+      "totalFinal": 36,
+      "formaPagamento": "Dinheiro"
+    },
+    {
+      "numeroVenda": "000007",
+      "dataHora": "08/08/2026 18:20:15",
+      "itens": [
+        {
+          "codigo": "00001",
+          "nome": "Lasanha",
+          "valorVenda": 6,
+          "qtd": 6
+        }
+      ],
+      "subtotal": 36,
+      "descontoPercentual": 0,
+      "desconto": 0,
+      "totalFinal": 36,
+      "formaPagamento": "Dinheiro"
+    },
+    {
+      "numeroVenda": "000008",
+      "dataHora": "08/08/2026 18:23:08",
+      "itens": [
+        {
+          "codigo": "00002",
+          "nome": "COCA-COLA 400ML",
+          "valorVenda": 5,
+          "qtd": 15
+        }
+      ],
+      "subtotal": 75,
+      "descontoPercentual": 0,
+      "desconto": 0,
+      "totalFinal": 75,
+      "formaPagamento": "Dinheiro"
+    },
+    {
+      "numeroVenda": "000009",
+      "dataHora": "08/08/2026 18:24:51",
+      "itens": [
+        {
+          "codigo": "00002",
+          "nome": "COCA-COLA 400ML",
+          "valorVenda": 5,
+          "qtd": 5
+        }
+      ],
+      "subtotal": 25,
+      "descontoPercentual": 0,
+      "desconto": 0,
+      "totalFinal": 25,
+      "formaPagamento": "Dinheiro"
+    }
+  ]
+}
